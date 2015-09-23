@@ -3,14 +3,14 @@
 /**
  * The dashboard-specific functionality of the plugin.
  *
- * @link       https://github.com/log-oscon/wpml-papi-compatibility/
+ * @link       https://github.com/log-oscon/papi-compatibility-for-wpml/
  * @since      1.0.0
  *
- * @package    WpmlPapiCompatibility
- * @subpackage WpmlPapiCompatibility/includes
+ * @package    PapiWpml
+ * @subpackage PapiWpml/includes
  */
 
-namespace logoscon\WpmlPapiCompatibility;
+namespace logoscon\PapiWpml;
 
 /**
  * The dashboard-specific functionality of the plugin.
@@ -18,8 +18,8 @@ namespace logoscon\WpmlPapiCompatibility;
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the dashboard-specific stylesheet and JavaScript.
  *
- * @package    WpmlPapiCompatibility
- * @subpackage WpmlPapiCompatibility/includes
+ * @package    PapiWpml
+ * @subpackage PapiWpml/includes
  * @author     log.OSCON, Lda. <engenharia@log.pt>
  */
 class Admin {

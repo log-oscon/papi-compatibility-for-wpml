@@ -3,14 +3,14 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       https://github.com/log-oscon/wpml-papi-compatibility/
+ * @link       https://github.com/log-oscon/papi-compatibility-for-wpml/
  * @since      1.0.0
  *
- * @package    WpmlPapiCompatibility
- * @subpackage WpmlPapiCompatibility/includes
+ * @package    PapiWpml
+ * @subpackage PapiWpml/includes
  */
 
-namespace logoscon\WpmlPapiCompatibility;
+namespace logoscon\PapiWpml;
 
 /**
  * Register all actions and filters for the plugin.
@@ -19,8 +19,8 @@ namespace logoscon\WpmlPapiCompatibility;
  * the plugin, and register them with the WordPress API. Call the
  * run function to execute the list of actions and filters.
  *
- * @package    WpmlPapiCompatibility
- * @subpackage WpmlPapiCompatibility/includes
+ * @package    PapiWpml
+ * @subpackage PapiWpml/includes
  * @author     log.OSCON, Lda. <engenharia@log.pt>
  */
 class Loader {
