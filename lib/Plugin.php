@@ -6,14 +6,14 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the dashboard.
  *
- * @link       https://github.com/log-oscon/wpml-papi-compatibility/
+ * @link       https://github.com/log-oscon/papi-compatibility-for-wpml/
  * @since      1.0.0
  *
- * @package    WpmlPapiCompatibility
- * @subpackage WpmlPapiCompatibility/includes
+ * @package    PapiWpml
+ * @subpackage PapiWpml/includes
  */
 
-namespace logoscon\WpmlPapiCompatibility;
+namespace logoscon\PapiWpml;
 
 /**
  * The core plugin class.
@@ -25,8 +25,8 @@ namespace logoscon\WpmlPapiCompatibility;
  * version of the plugin.
  *
  * @since      1.0.0
- * @package    WpmlPapiCompatibility
- * @subpackage WpmlPapiCompatibility/includes
+ * @package    PapiWpml
+ * @subpackage PapiWpml/includes
  * @author     log.OSCON, Lda. <engenharia@log.pt>
  */
 class Plugin {
@@ -37,7 +37,7 @@ class Plugin {
 	 *
 	 * @since    1.0.0
 	 * @access   protected
-	 * @var      WpmlPapiCompatibility_Loader    $loader    Maintains and registers all hooks for the plugin.
+	 * @var      PapiWpml_Loader    $loader    Maintains and registers all hooks for the plugin.
 	 */
 	protected $loader;
 
@@ -48,7 +48,7 @@ class Plugin {
 	 * @access   protected
 	 * @var      string    $pluginname    The string used to uniquely identify this plugin.
 	 */
-	protected $pluginname = 'wpml-papi-compatibility';
+	protected $pluginname = 'papi-compatibility-for-wpml';
 
 	/**
 	 * The current version of the plugin.
@@ -111,7 +111,7 @@ class Plugin {
 	 * The reference to the class that orchestrates the hooks with the plugin.
 	 *
 	 * @since     1.0.0
-	 * @return    WpmlPapiCompatibility_Loader    Orchestrates the hooks of the plugin.
+	 * @return    PapiWpml_Loader    Orchestrates the hooks of the plugin.
 	 */
 	public function get_loader() {
 		return $this->loader;

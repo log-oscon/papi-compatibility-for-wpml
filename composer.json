@@ -1,10 +1,10 @@
 
 {
-  "name": "logoscon/wpml-papi-compatibility",
-  "description": "WordPress Page Type API WPML compatibility.",
+  "name": "logoscon/papi-compatibility-for-wpml",
+  "description": "Papi compatibility for WPML",
   "type": "wordpress-plugin",
   "keywords": ["wordpress", "plugin"],
-  "homepage": "https://github.com/log-oscon/wpml-papi-compatibility",
+  "homepage": "https://github.com/log-oscon/papi-compatibility-for-wpml",
   "license": "GPL-2.0+",
   "authors": [
     {
@@ -19,17 +19,17 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/log-oscon/wpml-papi-compatibility/issues",
-    "source": "https://github.com/log-oscon/wpml-papi-compatibility"
+    "issues": "https://github.com/log-oscon/papi-compatibility-for-wpml/issues",
+    "source": "https://github.com/log-oscon/papi-compatibility-for-wpml"
   },
   "autoload": {
     "psr-4": {
-      "logoscon\\WpmlPapiCompatibility\\": "lib/"
+      "logoscon\\PapiWpml\\": "lib/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "logoscon\\Tests\\WpmlPapiCompatibility\\": "tests/"
+      "logoscon\\Tests\\PapiWpml\\": "tests/"
     }
   },
   "require-dev": {
