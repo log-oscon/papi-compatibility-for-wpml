@@ -13,7 +13,7 @@
  * Plugin Name:       Papi compatibility for WPML
  * Plugin URI:        https://github.com/log-oscon/papi-compatibility-for-wpml/
  * Description:       Adds WPML compatibility to WordPress Page Type API.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            log.OSCON, Lda.
  * Author URI:        http://log.pt/
  * License:           GPL-2.0+
