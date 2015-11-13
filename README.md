@@ -1,6 +1,4 @@
 # Papi compatibility for WPML #
-
-[![Join the chat at https://gitter.im/log-oscon/papi-compatibility-for-wpml](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/log-oscon/papi-compatibility-for-wpml?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 **Contributors:** s3rgiosan, log_oscon  
 **Tags:** fields, page, types, papi, wpml  
 **Requires at least:** 4.0  
