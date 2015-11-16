@@ -7,7 +7,7 @@
  * @since      1.0.0
  *
  * @package    PapiWpml
- * @subpackage PapiWpml/includes
+ * @subpackage PapiWpml/lib
  */
 
 namespace logoscon\PapiWpml;
@@ -19,7 +19,7 @@ namespace logoscon\PapiWpml;
  * enqueue the dashboard-specific stylesheet and JavaScript.
  *
  * @package    PapiWpml
- * @subpackage PapiWpml/includes
+ * @subpackage PapiWpml/lib
  * @author     log.OSCON, Lda. <engenharia@log.pt>
  */
 class Admin {

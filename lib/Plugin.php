@@ -10,7 +10,7 @@
  * @since      1.0.0
  *
  * @package    PapiWpml
- * @subpackage PapiWpml/includes
+ * @subpackage PapiWpml/lib
  */
 
 namespace logoscon\PapiWpml;
@@ -26,7 +26,7 @@ namespace logoscon\PapiWpml;
  *
  * @since      1.0.0
  * @package    PapiWpml
- * @subpackage PapiWpml/includes
+ * @subpackage PapiWpml/lib
  * @author     log.OSCON, Lda. <engenharia@log.pt>
  */
 class Plugin {
@@ -37,7 +37,7 @@ class Plugin {
 	 *
 	 * @since    1.0.0
 	 * @access   protected
-	 * @var      PapiWpml_Loader    $loader    Maintains and registers all hooks for the plugin.
+	 * @var      Loader    $loader    Maintains and registers all hooks for the plugin.
 	 */
 	protected $loader;
 
@@ -57,7 +57,7 @@ class Plugin {
 	 * @access   protected
 	 * @var      string    $version    The current version of the plugin.
 	 */
-	protected $version = '1.0.0';
+	protected $version = '1.0.1';
 
 	/**
 	 * Define the core functionality of the plugin.
@@ -111,7 +111,7 @@ class Plugin {
 	 * The reference to the class that orchestrates the hooks with the plugin.
 	 *
 	 * @since     1.0.0
-	 * @return    PapiWpml_Loader    Orchestrates the hooks of the plugin.
+	 * @return    Loader    Orchestrates the hooks of the plugin.
 	 */
 	public function get_loader() {
 		return $this->loader;

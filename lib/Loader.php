@@ -7,7 +7,7 @@
  * @since      1.0.0
  *
  * @package    PapiWpml
- * @subpackage PapiWpml/includes
+ * @subpackage PapiWpml/lib
  */
 
 namespace logoscon\PapiWpml;
@@ -20,7 +20,7 @@ namespace logoscon\PapiWpml;
  * run function to execute the list of actions and filters.
  *
  * @package    PapiWpml
- * @subpackage PapiWpml/includes
+ * @subpackage PapiWpml/lib
  * @author     log.OSCON, Lda. <engenharia@log.pt>
  */
 class Loader {
