@@ -1,6 +1,6 @@
 {
   "name": "papi-compatibility-for-wpml",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adds WPML compatibility to WordPress Page Type API",
   "license": "GPL-2.0+",
   "repository": "https://github.com/log-oscon/papi-compatibility-for-wpml.git",
