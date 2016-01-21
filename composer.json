@@ -1,4 +1,3 @@
-
 {
   "name": "logoscon/papi-compatibility-for-wpml",
   "description": "Papi compatibility for WPML",
@@ -33,11 +32,6 @@
     }
   },
   "require-dev": {
-    "phpunit/phpunit": "*@stable"
-  },
-  "require": {
-    "php": ">=5.3.0",
-    "composer/installers": "~1.0"
-  },
-  "suggest": {}
+    "dangoodman/composer-for-wordpress": "^1.0"
+  }
 }
