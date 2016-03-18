@@ -1,11 +1,11 @@
 # Papi compatibility for WPML #
-**Contributors:** s3rgiosan, log_oscon  
-**Tags:** fields, page, types, papi, wpml  
-**Requires at least:** 4.0  
-**Tested up to:** 4.3.1  
-**Stable tag:** trunk  
-**License:** GPLv2 or later  
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
+**Contributors:** s3rgiosan, log_oscon    
+**Tags:** fields, page, types, papi, wpml    
+**Requires at least:** 4.0    
+**Tested up to:** 4.3.1    
+**Stable tag:** 1.0.4    
+**License:** GPLv2 or later    
+**License URI:** http://www.gnu.org/licenses/gpl-2.0.html    
 
 Papi compatibility for WPML
 
@@ -33,6 +33,25 @@ Adds WPML compatibility to [WordPress Page Type API](https://wp-papi.github.io/)
 3. Upload the `papi-compatibility-for-wpml` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin dashboard
 
+## Changelog ##
+
+### 1.0.4 ###
+* Minor changes.  
+* Added language file.  
+
+### 1.0.3 ###
+* Fix PSR-4 loader conflict with older implementation.  
+
+### 1.0.2 ###
+* Added GitHub Updater support.  
+* Added Update supported WordPress version.  
+
+### 1.0.1 ###
+* Added composer.lock to repo.  
+* Added vendor folder to SVN repo.  
+
+### 1.0.0 ###
+* Initial release.  
 
 ## Upgrade Notice ##
 
