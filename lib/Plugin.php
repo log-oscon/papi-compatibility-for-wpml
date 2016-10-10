@@ -111,6 +111,6 @@ class Plugin {
 	 */
 	private function define_admin_hooks() {
 		$admin = new Admin( $this );
-		\add_filter( 'wpml_link_to_translation', $admin, 'wpml_link_to_translation', 10, 1 );
+		\add_filter( 'wpml_link_to_translation', array( $admin, 'wpml_link_to_translation' ), 10, 1 );
 	}
 }
