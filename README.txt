@@ -2,8 +2,8 @@
 Contributors: s3rgiosan, log_oscon  
 Tags: fields, page, types, papi, wpml  
 Requires at least: 4.0  
-Tested up to: 4.3.1  
-Stable tag: 1.0.4  
+Tested up to: 4.6  
+Stable tag: 1.0.5  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -34,6 +34,10 @@ Adds WPML compatibility to [WordPress Page Type API](https://wp-papi.github.io/)
 4. Activate the plugin in the Plugin dashboard
 
 == Changelog ==
+
+= 1.0.5 =
+* Added Codacy (a tool for automated code review) badge.  
+* Removed the loader class.  
 
 = 1.0.4 =
 * Minor changes.  

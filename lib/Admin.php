@@ -54,7 +54,7 @@ class Admin {
 
 		global $post;
 
-		if ( $post->post_type === 'page' &&
+		if ( isset( $post->post_type ) && $post->post_type === 'page' &&
 			 function_exists( 'icl_object_id' ) &&
 			 function_exists( 'papi_get_page_type_meta_value' ) ) {
 
@@ -68,7 +68,5 @@ class Admin {
 		}
 
 		return $link;
-
 	}
-
 }
