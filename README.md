@@ -1,11 +1,11 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b1fa0e6db96c4eb9b2b3cbc03657a246)](https://www.codacy.com/app/s3rgiosan/papi-compatibility-for-wpml?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=s3rgiosan/papi-compatibility-for-wpml&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e3beb8202fbe413c837e343faf417a4d)](https://www.codacy.com/app/s3rgiosan/papi-compatibility-for-wpml?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=log-oscon/papi-compatibility-for-wpml&amp;utm_campaign=Badge_Grade)
 
 # Papi compatibility for WPML #
 **Contributors:** [s3rgiosan](https://profiles.wordpress.org/s3rgiosan), [log_oscon](https://profiles.wordpress.org/log_oscon)  
 **Tags:** fields, page, types, papi, wpml    
 **Requires at least:** 4.0    
 **Tested up to:** 4.6    
-**Stable tag:** 1.0.6    
+**Stable tag:** 1.0.7    
 **License:** GPLv2 or later    
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html    
 
@@ -36,6 +36,9 @@ Adds WPML compatibility to [WordPress Page Type API](https://wp-papi.github.io/)
 4. Activate the plugin in the Plugin dashboard
 
 ## Changelog ##
+
+### 1.0.7 ###
+* Updated Codacy badge url. 
 
 ### 1.0.6 ###
 * Fix previous commit. Sorry guys.  

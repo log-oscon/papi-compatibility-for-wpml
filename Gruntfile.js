@@ -10,7 +10,7 @@ module.exports = function (grunt) {
     textDomain:  'papi-compatibility-for-wpml',
     potFilename: 'papi-compatibility-for-wpml',
     badges:      {
-      codacy: '[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b1fa0e6db96c4eb9b2b3cbc03657a246)](https://www.codacy.com/app/s3rgiosan/papi-compatibility-for-wpml?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=s3rgiosan/papi-compatibility-for-wpml&amp;utm_campaign=Badge_Grade)',
+      codacy: '[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e3beb8202fbe413c837e343faf417a4d)](https://www.codacy.com/app/s3rgiosan/papi-compatibility-for-wpml?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=log-oscon/papi-compatibility-for-wpml&amp;utm_campaign=Badge_Grade)',
     },
   };
 
